@@ -1,0 +1,15 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "warning", 
+  },
+  "compilerOptions": {
+    // "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true, // This can help avoid type checking issues with third-party libraries
+    // Other options...
+    "baseUrl": "./",
+    "typeRoots": ["./node_modules/@types", "./typings"],
+  },
+
+}

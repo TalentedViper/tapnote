@@ -1,0 +1,4 @@
+<resources>
+    <color name="splash_background">#FFFFFF</color> <!-- Replace #FFFFFF with your desired color -->
+    <color name="transparent">#00000000</color>
+</resources>
